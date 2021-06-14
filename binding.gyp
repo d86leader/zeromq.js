@@ -37,7 +37,7 @@
             ['OS=="openbsd" or OS=="freebsd"', {
             }],
             ['OS=="linux"', {
-              'libraries': ['<(PRODUCT_DIR)/../../zmq/lib/libzmq.a'],
+              'libraries': ['<(PRODUCT_DIR)/../../zmq/lib64/libzmq.a'],
               'include_dirs': ['<(PRODUCT_DIR)/../../zmq/include'],
             }],
           ],
